@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e58eadd7-ff1c-4faf-811d-6946708b9a2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="boards: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="node: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nraboy" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nraboy" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nraboy" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nraboy" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nraboy" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1YfXDiCEFABThC0kjA96tjV2i4t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/github.com" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../SalesWhaleProject/utils" />
+      <recent name="$PROJECT_DIR$/../SalesWhaleProject/github.com" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/github.com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build SalesWhaleProject/playground">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="SalesWhaleProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="awesomeProject1" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build SalesWhaleProject/playground" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="SalesWhaleProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/../SalesWhaleProject/playground/main.go" />
+      <package value="SalesWhaleProject/playground" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build awesomeProject1/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="SalesWhaleProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/app/main.go" />
+      <package value="awesomeProject1/app" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="SalesWhaleProject" />
+      <working_directory value="$PROJECT_DIR$/../SalesWhaleProject" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="SalesWhaleProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject1" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build " />
+      <item itemvalue="Go Build.go build awesomeProject1/app" />
+      <item itemvalue="Go Build.go build SalesWhaleProject/playground" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build SalesWhaleProject/playground" />
+        <item itemvalue="Go Build.go build awesomeProject1/app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:mydb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:mydb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@552f444f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:mydb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@77006be8" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:nraboy" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:nraboy" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@42956681" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:nraboy" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@788acde7" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Inspections" timestamp="1583529815565">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1583529815565" />
+    <state x="302" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583526155097">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="302" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/-348.-1417.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1583381523633" />
+    <state x="302" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583526155097" />
+    <state x="302" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.947@0.23.1680.947" timestamp="1583334604849" />
+    <state x="560" y="175" key="#go_build_" timestamp="1583518981832">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="560" y="175" key="#go_build_/0.0.1680.1050@0.0.1680.1050" timestamp="1583518981832" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1583521236475">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1680.1050@0.0.1680.1050" timestamp="1583521236475" />
+    <state width="1638" height="188" key="GridCell.Tab.0.bottom" timestamp="1583538708886">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom/-348.-1417.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1583382019150" />
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom/-348.-1417.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1583479345633" />
+    <state width="1228" height="422" key="GridCell.Tab.0.bottom/-348.-1440.2560.1440/0.0.1680.1050@-348.-1440.2560.1440" timestamp="1583490081175" />
+    <state width="1638" height="188" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583538708886" />
+    <state width="1638" height="188" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1583530379580" />
+    <state width="1638" height="188" key="GridCell.Tab.0.center" timestamp="1583538708885">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.center/-348.-1417.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1583382019149" />
+    <state width="1358" height="240" key="GridCell.Tab.0.center/-348.-1417.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1583479345632" />
+    <state width="1228" height="422" key="GridCell.Tab.0.center/-348.-1440.2560.1440/0.0.1680.1050@-348.-1440.2560.1440" timestamp="1583490081172" />
+    <state width="1638" height="188" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583538708885" />
+    <state width="1638" height="188" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1583530379579" />
+    <state width="1638" height="188" key="GridCell.Tab.0.left" timestamp="1583538708885">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.left/-348.-1417.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1583382019147" />
+    <state width="1358" height="240" key="GridCell.Tab.0.left/-348.-1417.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1583479345631" />
+    <state width="1228" height="422" key="GridCell.Tab.0.left/-348.-1440.2560.1440/0.0.1680.1050@-348.-1440.2560.1440" timestamp="1583490081171" />
+    <state width="1638" height="188" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583538708885" />
+    <state width="1638" height="188" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1583530379578" />
+    <state width="1638" height="188" key="GridCell.Tab.0.right" timestamp="1583538708886">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.right/-348.-1417.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1583382019149" />
+    <state width="1358" height="240" key="GridCell.Tab.0.right/-348.-1417.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1583479345632" />
+    <state width="1228" height="422" key="GridCell.Tab.0.right/-348.-1440.2560.1440/0.0.1680.1050@-348.-1440.2560.1440" timestamp="1583490081174" />
+    <state width="1638" height="188" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583538708886" />
+    <state width="1638" height="188" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1583530379580" />
+    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1583521309174">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="234" height="457" key="HiddenNamespacesPopup/0.0.1680.1050@0.0.1680.1050" timestamp="1583521309174" />
+    <state x="747" y="427" width="342" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583529473210">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="747" y="427" width="342" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1583529473210" />
+    <state x="569" y="215" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583526957974">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="569" y="215" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583526957974" />
+    <state x="482" y="142" width="667" height="809" key="find.popup" timestamp="1583537302315">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="386" y="-1225" width="1017" height="1091" key="find.popup/-348.-1417.2560.1417/0.23.1680.947@-348.-1417.2560.1417" timestamp="1583489355298" />
+    <state x="482" y="142" width="667" height="809" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583537302315" />
+    <state x="482" y="151" width="667" height="729" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1583514717200" />
+    <state x="757" y="314" width="670" height="502" key="search.everywhere.popup" timestamp="1583534174399">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="805" y="-994" width="670" height="676" key="search.everywhere.popup/-348.-1417.2560.1417/0.23.1680.947@-348.-1417.2560.1417" timestamp="1583489343577" />
+    <state x="757" y="314" width="670" height="502" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583534174399" />
+    <state x="757" y="306" width="670" height="452" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1583513620674" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../SalesWhaleProject/models/db.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
