@@ -1,12 +1,12 @@
 package main
 
 import (
-	_ "github.com/mattn/go-sqlite3"
 	"SalesWhaleProject/models"
 	_ "SalesWhaleProject/models"
 	"SalesWhaleProject/utils"
 	_ "SalesWhaleProject/utils"
 	"encoding/json"
+	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"net/http"
 	. "strconv"
@@ -43,16 +43,21 @@ func gameEndpoint(w http.ResponseWriter, r *http.Request) {
 		getBoard(getBoardField.Id,w)
 
 	case http.MethodPost:
+
 		decoder := json.NewDecoder(r.Body)
-		var boardField CreateBoardField
-		err := decoder.Decode(&boardField)
+		var createBoardField CreateBoardField
+		err := decoder.Decode(&createBoardField)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusBadRequest)
 			return
 		}
 		id := models.GetBoardsCount()
-		println(id)
-		createBoard(Itoa(id),utils.TokenGenerator(Itoa(id)), boardField.Duration,boardField.Board, w)
+		if createBoardField.Random{
+			createBoard(Itoa(id),utils.TokenGenerator(Itoa(id)), createBoardField.Duration,utils.DefaultBoard, w)
+		} else {
+			createBoard(Itoa(id),utils.TokenGenerator(Itoa(id)), createBoardField.Duration, createBoardField.Board, w)
+
+		}
 	case http.MethodPut:
 	default:
 		http.Error(w, "invalid method: Use Post, Get, Put", http.StatusBadRequest)

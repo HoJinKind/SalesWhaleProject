@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+var DefaultBoard = "T, A, P, *, E, A, K, S, O, B, R, S, S, *, X, D"
+
 func SplitString(str string) []string {
 	fmt.Println(strings.Split(str, ", ")[15])
 	return strings.Split(str, ", ")
