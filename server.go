@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "SalesWhaleProject/github.com/go-sqlite3"
+	_ "github.com/mattn/go-sqlite3"
 	"SalesWhaleProject/models"
 	_ "SalesWhaleProject/models"
 	"SalesWhaleProject/utils"
@@ -62,7 +62,6 @@ func gameEndpoint(w http.ResponseWriter, r *http.Request) {
 }
 
 func createBoard(id string, token string, duration int, board string, w http.ResponseWriter) {
-	models.NodeHandler(board)
 
 	boggleBoard := models.CreateBoard(id, token,duration, board)
 	models.InsertNewBoardToDB(boggleBoard)

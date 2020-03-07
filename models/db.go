@@ -1,7 +1,7 @@
 package models
 
 import (
-	_ "SalesWhaleProject/github.com/go-sqlite3"
+	_ "github.com/mattn/go-sqlite3"
 	"database/sql"
 	"log"
 )

@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"SalesWhaleProject/github.com/dgrijalva/jwt-go"
+	"github.com/dgrijalva/jwt-go"
 	"log"
 	"time"
 )
