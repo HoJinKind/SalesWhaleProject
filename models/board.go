@@ -1,6 +1,9 @@
 package models
 
 import (
+	//
+	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -46,8 +49,13 @@ func InsertNewBoardToDB(boggleBoard BoggleBoard) bool {
 	return true
 }
 
-func GetBoard(id string) (boggleBoardInfo, error) {
+func GetBoard(id string) (*boggleBoardInfo, error) {
+
 	var boggleBoardInfo boggleBoardInfo
+	requestId, _ := strconv.Atoi(id)
+	if  ( GetBoardsCount() < requestId || requestId <0 ) {
+		return nil,  fmt.Errorf(" invalid id")
+	}
 	db := openConnection()
 	row := db.QueryRow("SELECT * FROM boards WHERE id=?", id)
 	row.Scan(&boggleBoardInfo.Id, &boggleBoardInfo.Token, &boggleBoardInfo.EndEpoch, &boggleBoardInfo.Duration, &boggleBoardInfo.Board, &boggleBoardInfo.Points, &boggleBoardInfo.nodeArray)
@@ -56,7 +64,7 @@ func GetBoard(id string) (boggleBoardInfo, error) {
 	} else {
 		boggleBoardInfo.TimeLeft = 0
 	}
-	return boggleBoardInfo, nil
+	return &boggleBoardInfo, nil
 }
 
 func GetBoardsCount() int {
