@@ -15,7 +15,7 @@ import (
 
 type CreateBoardField struct {
 	Duration int `json:"duration"`
-	Random bool `json:"random"`
+	Random bool `json:"random,required"`
 	Board string `json:"board,omitempty"`
 }
 
@@ -47,6 +47,11 @@ func gameEndpoint(w http.ResponseWriter, r *http.Request) {
 		if createBoardField.Random{
 			createBoard(Itoa(id),utils.TokenGenerator(Itoa(id)), createBoardField.Duration,utils.DefaultBoard, w)
 		} else {
+
+			if (createBoardField.Board =="") {
+				http.Error(w, `{"message": "invalid board"}`, http.StatusBadRequest)
+				return
+			}
 			createBoard(Itoa(id),utils.TokenGenerator(Itoa(id)), createBoardField.Duration, createBoardField.Board, w)
 
 		}
