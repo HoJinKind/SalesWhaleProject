@@ -84,7 +84,7 @@ func getBoard(id string, w http.ResponseWriter){
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusOK)
+	w.WriteHeader(http.StatusCreated)
 	boardJson, _ := json.Marshal(boggleBoardInfo)
 	w.Write(boardJson)
 }
