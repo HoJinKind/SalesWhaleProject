@@ -24,3 +24,15 @@ func Contains(s []int, e int) bool {
 	}
 	return false
 }
+
+func GetFirstParam(path string) (ps string) {
+
+	// ignore first '/' and when it hits the second '/'
+	// get whatever is after it as a parameter
+	for i := 1; i < len(path); i++ {
+		if path[i] == '/' {
+			ps = path[i+1:]
+		}
+	}
+	return
+}
