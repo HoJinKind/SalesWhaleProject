@@ -53,7 +53,7 @@ func GetBoard(id string) (*boggleBoardInfo, error) {
 
 	var boggleBoardInfo boggleBoardInfo
 	requestId, _ := strconv.Atoi(id)
-	if  ( GetBoardsCount() < requestId || requestId <0 ) {
+	if  ( GetBoardsCount() < requestId || requestId <=0 ) {
 		return nil,  fmt.Errorf(" invalid id")
 	}
 	db := openConnection()

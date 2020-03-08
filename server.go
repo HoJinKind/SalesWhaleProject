@@ -19,28 +19,20 @@ type CreateBoardField struct {
 	Board string `json:"board,omitempty"`
 }
 
-type getBoardField struct {
-	Id string `json:"id"`
-}
+
 
 func main() {
-		models.InitDB()
-		http.HandleFunc("/games/", gameEndpoint)
-		log.Fatal(http.ListenAndServe(":4567", nil))
+	models.InitDB()
+	http.HandleFunc("/games", gameEndpoint)
+	http.HandleFunc("/games/", gameEndpoint)
+	log.Fatal(http.ListenAndServe(":4567", nil))
 	}
 
 
 func gameEndpoint(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case http.MethodGet:
-		decoder := json.NewDecoder(r.Body)
-		var getBoardField getBoardField
-		err := decoder.Decode(&getBoardField)
-		if err != nil {
-			http.Error(w, err.Error(), http.StatusBadRequest)
-			return
-		}
-		getBoard(getBoardField.Id,w)
+		getBoard(utils.GetFirstParam(r.URL.Path),w)
 
 	case http.MethodPost:
 
@@ -80,7 +72,7 @@ func createBoard(id string, token string, duration int, board string, w http.Res
 func getBoard(id string, w http.ResponseWriter){
 	boggleBoardInfo, err := models.GetBoard(id)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
+		http.Error(w, `{"message": "invalid id"}`, http.StatusNotFound)
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
