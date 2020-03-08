@@ -71,7 +71,7 @@ func createBoard(id string, token string, duration int, board string, w http.Res
 	boggleBoard := models.CreateBoard(id, token,duration, board)
 	models.InsertNewBoardToDB(boggleBoard)
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusOK)
+	w.WriteHeader(http.StatusCreated)
 	boggleBoard.EndEpoch = duration
 	boardJson, _ := json.Marshal(boggleBoard)
 	w.Write(boardJson)
@@ -84,7 +84,7 @@ func getBoard(id string, w http.ResponseWriter){
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusCreated)
+	w.WriteHeader(http.StatusOK)
 	boardJson, _ := json.Marshal(boggleBoardInfo)
 	w.Write(boardJson)
 }
